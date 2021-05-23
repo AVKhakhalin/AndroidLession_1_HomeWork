@@ -4,4 +4,6 @@
     <dimen name="sizeLowerTextViewText">30sp</dimen>
     <dimen name="marginTopValue">15dp</dimen>
     <dimen name="buttonTextSize">30sp</dimen>
+    <dimen name="sizeToggleButtonText">20sp</dimen>
+    <dimen name="sizeEditTextText">30sp</dimen>
 </resources>

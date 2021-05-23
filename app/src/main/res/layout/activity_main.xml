@@ -47,9 +47,9 @@
     <EditText
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="15dp"
+        android:layout_marginTop="@dimen/marginTopValue"
         android:text="@string/EditTextText"
-        android:textSize="30sp"
+        android:textSize="@dimen/sizeEditTextText"
         android:textColor="@color/blueColor"
         android:textStyle="normal"
         android:layout_weight="0.143"
@@ -131,7 +131,7 @@
         <ToggleButton
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:textSize="20sp"
+            android:textSize="@dimen/sizeToggleButtonText"
             android:textColor="@color/blueColor"
             android:textStyle="bold"/>
     </LinearLayout>
