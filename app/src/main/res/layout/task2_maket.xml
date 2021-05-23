@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_weight="1.0"
+    android:gravity="center"
+    android:background="#61B9E3">
+
+    <TextView
+        style="@style/editTextView"
+        android:text="@string/Task2_TextView1_text"/>
+    <EditText
+        style="@style/editTextView"
+        android:inputType="text"
+        android:textColor="@color/blueColor"/>
+
+    <TextView
+        style="@style/editTextView"
+        android:text="@string/Task2_TextView2_text"/>
+    <EditText
+        style="@style/editTextView"
+        android:inputType="textPersonName"
+        android:textColor="@color/blueColor"/>
+
+    <TextView
+        style="@style/editTextView"
+        android:text="@string/Task2_TextView3_text"/>
+    <EditText
+        style="@style/editTextView"
+        android:inputType="phone"
+        android:textColor="@color/blueColor" />
+
+    <TextView
+        style="@style/editTextView"
+        android:text="@string/Task2_TextView4_text"/>
+    <EditText
+        style="@style/editTextView"
+        android:inputType="number"
+        android:textColor="@color/blueColor" />
+
+    <TextView
+        style="@style/editTextView"
+        android:text="@string/Task2_TextView5_text"/>
+    <EditText
+        style="@style/editTextView"
+        android:inputType="textPassword"
+        android:textColor="@color/blueColor" />
+
+    <TextView
+        style="@style/editTextView"
+        android:text="@string/Task2_TextView6_text"/>
+    <EditText
+        style="@style/editTextView"
+        android:inputType="textEmailAddress"
+        android:textColor="@color/blueColor" />
+
+    <TextView
+        style="@style/editTextView"
+        android:text="@string/Task2_TextView7_text"/>
+    <EditText
+        style="@style/editTextView"
+        android:inputType="time"
+        android:textColor="@color/blueColor" />
+
+    <TextView
+        style="@style/editTextView"
+        android:text="@string/Task2_TextView8_text"/>
+    <EditText
+        style="@style/editTextView"
+        android:inputType="textUri"
+        android:textColor="@color/blueColor" />
+
+    <TextView
+        style="@style/editTextView"
+        android:text="@string/Task2_TextView9_text"/>
+    <EditText
+        style="@style/editTextView"
+        android:inputType="numberPassword"
+        android:textColor="@color/blueColor" />
+
+    <TextView
+        style="@style/editTextView"
+        android:text="@string/Task2_TextView10_text"/>
+    <EditText
+        style="@style/editTextView"
+        android:inputType="numberDecimal"
+        android:textColor="@color/blueColor" />
+
+</LinearLayout>
