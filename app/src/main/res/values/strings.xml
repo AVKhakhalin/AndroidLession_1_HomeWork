@@ -1,3 +1,20 @@
 <resources>
     <string name="app_name">Lession1_HomeWork</string>
+    <string name="upperTextViewText">Справа "Hello World!"</string>
+    <string name="lowerTextViewText">Слева "Hello People!" </string>
+    <string name="EditTextText">ПоЛе дЛя вВоДа ТеКсТа</string>
+    <string name="toggleButtonText">Включите меня</string>
+    <string name="checkBoxText">Поставьте сюда галочку</string>
+    <string name="switchText">Переключите меня</string>
+    <string name="buttonText">Нажмите меня</string>
+    <string name="Task2_TextView1_text">Введие текст типа `text`</string>
+    <string name="Task2_TextView2_text">Введие текст типа `textPersonName`</string>
+    <string name="Task2_TextView3_text">Введие текст типа `phone`</string>
+    <string name="Task2_TextView4_text">Введие текст типа `number`</string>
+    <string name="Task2_TextView5_text">Введие текст типа `textPassword`</string>
+    <string name="Task2_TextView6_text">Введие текст типа `textEmailAddress`</string>
+    <string name="Task2_TextView7_text">Введие текст типа `time`</string>
+    <string name="Task2_TextView8_text">Введие текст типа `textUri`</string>
+    <string name="Task2_TextView9_text">Введие текст типа `numberPassword`</string>
+    <string name="Task2_TextView10_text">Введие текст типа `numberDecimal`</string>
 </resources>
