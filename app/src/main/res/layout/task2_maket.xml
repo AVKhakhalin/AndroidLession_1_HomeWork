@@ -9,11 +9,13 @@
 
     <TextView
         style="@style/editTextView"
-        android:text="@string/Task2_TextView1_text"/>
+        android:text="@string/Task2_TextView1_text" />
     <EditText
         style="@style/editTextView"
         android:inputType="text"
-        android:textColor="@color/blueColor"/>
+        android:textColor="@color/blueColor"
+        android:layout_width="wrap_content"
+        android:ems="10"/>
 
     <TextView
         style="@style/editTextView"
@@ -21,7 +23,9 @@
     <EditText
         style="@style/editTextView"
         android:inputType="textPersonName"
-        android:textColor="@color/blueColor"/>
+        android:textColor="@color/blueColor"
+        android:layout_width="wrap_content"
+        android:ems="10"/>
 
     <TextView
         style="@style/editTextView"
@@ -29,7 +33,9 @@
     <EditText
         style="@style/editTextView"
         android:inputType="phone"
-        android:textColor="@color/blueColor" />
+        android:textColor="@color/blueColor"
+        android:layout_width="wrap_content"
+        android:ems="10"/>
 
     <TextView
         style="@style/editTextView"
@@ -37,7 +43,9 @@
     <EditText
         style="@style/editTextView"
         android:inputType="number"
-        android:textColor="@color/blueColor" />
+        android:textColor="@color/blueColor"
+        android:layout_width="wrap_content"
+        android:ems="10"/>
 
     <TextView
         style="@style/editTextView"
@@ -45,7 +53,9 @@
     <EditText
         style="@style/editTextView"
         android:inputType="textPassword"
-        android:textColor="@color/blueColor" />
+        android:textColor="@color/blueColor"
+        android:layout_width="wrap_content"
+        android:ems="10"/>
 
     <TextView
         style="@style/editTextView"
@@ -53,7 +63,9 @@
     <EditText
         style="@style/editTextView"
         android:inputType="textEmailAddress"
-        android:textColor="@color/blueColor" />
+        android:textColor="@color/blueColor"
+        android:layout_width="wrap_content"
+        android:ems="10"/>
 
     <TextView
         style="@style/editTextView"
@@ -61,7 +73,9 @@
     <EditText
         style="@style/editTextView"
         android:inputType="time"
-        android:textColor="@color/blueColor" />
+        android:textColor="@color/blueColor"
+        android:layout_width="wrap_content"
+        android:ems="10"/>
 
     <TextView
         style="@style/editTextView"
@@ -69,7 +83,9 @@
     <EditText
         style="@style/editTextView"
         android:inputType="textUri"
-        android:textColor="@color/blueColor" />
+        android:textColor="@color/blueColor"
+        android:layout_width="wrap_content"
+        android:ems="10"/>
 
     <TextView
         style="@style/editTextView"
@@ -77,7 +93,9 @@
     <EditText
         style="@style/editTextView"
         android:inputType="numberPassword"
-        android:textColor="@color/blueColor" />
+        android:textColor="@color/blueColor"
+        android:layout_width="wrap_content"
+        android:ems="10"/>
 
     <TextView
         style="@style/editTextView"
@@ -85,6 +103,8 @@
     <EditText
         style="@style/editTextView"
         android:inputType="numberDecimal"
-        android:textColor="@color/blueColor" />
+        android:textColor="@color/blueColor"
+        android:layout_width="wrap_content"
+        android:ems="10"/>
 
 </LinearLayout>
