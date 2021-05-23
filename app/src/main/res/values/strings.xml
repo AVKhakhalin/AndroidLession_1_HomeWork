@@ -1,3 +1,10 @@
 <resources>
     <string name="app_name">Lession1_HomeWork</string>
+    <string name="upperTextViewText">Справа "Hello World!"</string>
+    <string name="lowerTextViewText">Слева "Hello People!" </string>
+    <string name="EditTextText">ПоЛе дЛя вВоДа ТеКсТа</string>
+    <string name="toggleButtonText">Включите меня</string>
+    <string name="checkBoxText">Поставьте сюда галочку</string>
+    <string name="switchText">Переключите меня</string>
+    <string name="buttonText">Нажмите меня</string>
 </resources>
