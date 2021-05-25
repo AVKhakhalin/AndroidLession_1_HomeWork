@@ -3,7 +3,7 @@
     android:orientation="vertical"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:layout_weight="1.0"
+    android:layout_weight="1.05"
     android:gravity="center"
     android:background="#61B9E3">
 
@@ -106,5 +106,14 @@
         android:textColor="@color/blueColor"
         android:layout_width="wrap_content"
         android:ems="10"/>
+
+    <Button
+        android:id="@+id/switchLayout_3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/bottonText2"
+        android:onClick="switchLayout3"
+        android:textAllCaps="false"
+        android:layout_weight="0.05"/>
 
 </LinearLayout>

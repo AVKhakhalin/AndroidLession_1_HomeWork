@@ -6,7 +6,7 @@
     <string name="toggleButtonText">Включите меня</string>
     <string name="checkBoxText">Поставьте сюда галочку</string>
     <string name="switchText">Переключите меня</string>
-    <string name="buttonText">Нажмите меня</string>
+    <string name="buttonText">Нажмите меня\nдля перехода\nк заданию 2</string>
     <string name="Task2_TextView1_text">Введие текст типа `text`</string>
     <string name="Task2_TextView2_text">Введие текст типа `textPersonName`</string>
     <string name="Task2_TextView3_text">Введие текст типа `phone`</string>
@@ -17,4 +17,6 @@
     <string name="Task2_TextView8_text">Введие текст типа `textUri`</string>
     <string name="Task2_TextView9_text">Введие текст типа `numberPassword`</string>
     <string name="Task2_TextView10_text">Введие текст типа `numberDecimal`</string>
+    <string name="bottonText2">Нажмите меня для перехода к заданию 3</string>
+    <string name="buttonText3">Нажмите меня для перехода к заданию 1</string>
 </resources>

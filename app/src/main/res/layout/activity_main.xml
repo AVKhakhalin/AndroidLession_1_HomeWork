@@ -14,7 +14,7 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:gravity="right"
+        android:gravity="end"
         android:orientation="horizontal"
         android:layout_weight="0.143" >
 
@@ -64,19 +64,21 @@
         android:layout_marginTop="@dimen/marginTopValue" >
 
         <Button
+            android:id="@+id/switchLayout_2"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="@dimen/marginTopValue"
             android:text="@string/buttonText"
             android:textColor="@color/redColor"
             android:textSize="@dimen/buttonTextSize"
-            android:textAllCaps="false" />
+            android:textAllCaps="false"
+            android:onClick="switchLayout2" />
     </LinearLayout>
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:gravity="right"
+        android:gravity="end"
         android:orientation="horizontal"
         android:layout_weight="0.143"
         android:layout_marginTop="@dimen/marginTopValue" >
@@ -85,7 +87,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/switchText"
-            android:gravity="right"
+            android:gravity="end"
             android:textSize="@dimen/sizeLowerTextViewText"
             android:textStyle="bold"
             android:textColor="@color/redColor"
@@ -115,7 +117,7 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:gravity="right"
+        android:gravity="end"
         android:orientation="horizontal"
         android:layout_weight="0.142"
         android:layout_marginTop="@dimen/marginTopValue" >
