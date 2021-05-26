@@ -1,22 +1,21 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical"
-    tools:context=".MainActivity"
     android:layout_weight="1.0"
     android:background="@drawable/background"
+    android:gravity="center"
+    android:orientation="vertical"
     android:padding="@dimen/marginTopValue"
-    android:gravity="center" >
+    tools:context=".MainActivity">
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_weight="0.143"
         android:gravity="end"
-        android:orientation="horizontal"
-        android:layout_weight="0.143" >
+        android:orientation="horizontal">
 
         <TextView
             android:layout_width="wrap_content"
@@ -30,38 +29,38 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:gravity="left"
-        android:orientation="horizontal"
+        android:layout_marginTop="@dimen/marginTopValue"
         android:layout_weight="0.143"
-        android:layout_marginTop="@dimen/marginTopValue" >
+        android:gravity="left"
+        android:orientation="horizontal">
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/lowerTextViewText"
-            android:textStyle="bold"
+            android:textColor="@color/blueColor"
             android:textSize="@dimen/sizeLowerTextViewText"
-            android:textColor="@color/blueColor" />
+            android:textStyle="bold" />
     </LinearLayout>
 
     <EditText
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="@dimen/marginTopValue"
-        android:text="@string/EditTextText"
-        android:textSize="@dimen/sizeEditTextText"
-        android:textColor="@color/blueColor"
-        android:textStyle="normal"
         android:layout_weight="0.143"
-        android:gravity="center"/>
+        android:gravity="center"
+        android:text="@string/EditTextText"
+        android:textColor="@color/blueColor"
+        android:textSize="@dimen/sizeEditTextText"
+        android:textStyle="normal" />
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:gravity="left"
-        android:orientation="horizontal"
+        android:layout_marginTop="@dimen/marginTopValue"
         android:layout_weight="0.143"
-        android:layout_marginTop="@dimen/marginTopValue" >
+        android:gravity="left"
+        android:orientation="horizontal">
 
         <Button
             android:id="@+id/switchLayout_2"
@@ -69,73 +68,72 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="@dimen/marginTopValue"
             android:text="@string/buttonText"
-            android:textColor="@color/redColor"
-            android:textSize="@dimen/buttonTextSize"
             android:textAllCaps="false"
-            android:onClick="switchLayout2" />
+            android:textColor="@color/redColor"
+            android:textSize="@dimen/buttonTextSize" />
+        <!--android:onClick="switchLayout2"-->
     </LinearLayout>
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:gravity="end"
-        android:orientation="horizontal"
+        android:layout_marginTop="@dimen/marginTopValue"
         android:layout_weight="0.143"
-        android:layout_marginTop="@dimen/marginTopValue" >
+        android:gravity="end"
+        android:orientation="horizontal">
 
         <Switch
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/switchText"
             android:gravity="end"
-            android:textSize="@dimen/sizeLowerTextViewText"
-            android:textStyle="bold"
+            android:text="@string/switchText"
             android:textColor="@color/redColor"
-            />
+            android:textSize="@dimen/sizeLowerTextViewText"
+            android:textStyle="bold" />
     </LinearLayout>
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:gravity="left"
-        android:orientation="horizontal"
+        android:layout_marginTop="@dimen/marginTopValue"
         android:layout_weight="0.143"
-        android:layout_marginTop="@dimen/marginTopValue" >
+        android:gravity="left"
+        android:orientation="horizontal">
 
         <CheckBox
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_weight="0.143"
             android:layout_marginTop="@dimen/marginTopValue"
-            android:text="@string/checkBoxText"
+            android:layout_weight="0.143"
             android:gravity="left"
-            android:textStyle="bold"
+            android:text="@string/checkBoxText"
+            android:textColor="@color/redColor"
             android:textSize="@dimen/sizeLowerTextViewText"
-            android:textColor="@color/redColor" />
+            android:textStyle="bold" />
     </LinearLayout>
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:gravity="end"
-        android:orientation="horizontal"
+        android:layout_marginTop="@dimen/marginTopValue"
         android:layout_weight="0.142"
-        android:layout_marginTop="@dimen/marginTopValue" >
+        android:gravity="end"
+        android:orientation="horizontal">
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/toggleButtonText"
-            android:textStyle="bold"
+            android:textColor="@color/redColor"
             android:textSize="@dimen/sizeLowerTextViewText"
-            android:textColor="@color/redColor" />
+            android:textStyle="bold" />
 
         <ToggleButton
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:textSize="@dimen/sizeToggleButtonText"
             android:textColor="@color/blueColor"
-            android:textStyle="bold"/>
+            android:textSize="@dimen/sizeToggleButtonText"
+            android:textStyle="bold" />
     </LinearLayout>
 
 </LinearLayout>

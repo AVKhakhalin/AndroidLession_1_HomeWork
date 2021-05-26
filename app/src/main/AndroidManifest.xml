@@ -16,6 +16,17 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
+        <activity
+            android:name=".secondTaskActivity"
+            android:label="Task2">
+        </activity>
+
+        <activity
+            android:name=".thirdTaskActivity"
+            android:label="Task3">
+        </activity>
+
     </application>
 
 </manifest>

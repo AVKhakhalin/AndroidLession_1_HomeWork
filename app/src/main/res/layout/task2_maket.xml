@@ -1,119 +1,132 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:orientation="vertical"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:layout_weight="1.05"
+    android:background="#61B9E3"
     android:gravity="center"
-    android:background="#61B9E3">
+    android:orientation="vertical">
 
     <TextView
         style="@style/editTextView"
         android:text="@string/Task2_TextView1_text" />
+
     <EditText
         style="@style/editTextView"
+        android:layout_width="wrap_content"
+        android:ems="10"
         android:inputType="text"
-        android:textColor="@color/blueColor"
-        android:layout_width="wrap_content"
-        android:ems="10"/>
+        android:textColor="@color/blueColor" />
 
     <TextView
         style="@style/editTextView"
-        android:text="@string/Task2_TextView2_text"/>
+        android:text="@string/Task2_TextView2_text" />
+
     <EditText
         style="@style/editTextView"
+        android:layout_width="wrap_content"
+        android:ems="10"
         android:inputType="textPersonName"
-        android:textColor="@color/blueColor"
-        android:layout_width="wrap_content"
-        android:ems="10"/>
+        android:textColor="@color/blueColor" />
 
     <TextView
         style="@style/editTextView"
-        android:text="@string/Task2_TextView3_text"/>
+        android:text="@string/Task2_TextView3_text" />
+
     <EditText
         style="@style/editTextView"
+        android:layout_width="wrap_content"
+        android:ems="10"
         android:inputType="phone"
-        android:textColor="@color/blueColor"
-        android:layout_width="wrap_content"
-        android:ems="10"/>
+        android:textColor="@color/blueColor" />
 
     <TextView
         style="@style/editTextView"
-        android:text="@string/Task2_TextView4_text"/>
+        android:text="@string/Task2_TextView4_text" />
+
     <EditText
         style="@style/editTextView"
+        android:layout_width="wrap_content"
+        android:ems="10"
         android:inputType="number"
-        android:textColor="@color/blueColor"
-        android:layout_width="wrap_content"
-        android:ems="10"/>
+        android:textColor="@color/blueColor" />
 
     <TextView
         style="@style/editTextView"
-        android:text="@string/Task2_TextView5_text"/>
+        android:text="@string/Task2_TextView5_text" />
+
     <EditText
         style="@style/editTextView"
+        android:layout_width="wrap_content"
+        android:ems="10"
         android:inputType="textPassword"
-        android:textColor="@color/blueColor"
-        android:layout_width="wrap_content"
-        android:ems="10"/>
+        android:textColor="@color/blueColor" />
 
     <TextView
         style="@style/editTextView"
-        android:text="@string/Task2_TextView6_text"/>
+        android:text="@string/Task2_TextView6_text" />
+
     <EditText
         style="@style/editTextView"
+        android:layout_width="wrap_content"
+        android:ems="10"
         android:inputType="textEmailAddress"
-        android:textColor="@color/blueColor"
-        android:layout_width="wrap_content"
-        android:ems="10"/>
+        android:textColor="@color/blueColor" />
 
     <TextView
         style="@style/editTextView"
-        android:text="@string/Task2_TextView7_text"/>
+        android:text="@string/Task2_TextView7_text" />
+
     <EditText
         style="@style/editTextView"
+        android:layout_width="wrap_content"
+        android:ems="10"
         android:inputType="time"
-        android:textColor="@color/blueColor"
-        android:layout_width="wrap_content"
-        android:ems="10"/>
+        android:textColor="@color/blueColor" />
 
     <TextView
         style="@style/editTextView"
-        android:text="@string/Task2_TextView8_text"/>
+        android:text="@string/Task2_TextView8_text" />
+
     <EditText
         style="@style/editTextView"
+        android:layout_width="wrap_content"
+        android:ems="10"
         android:inputType="textUri"
-        android:textColor="@color/blueColor"
-        android:layout_width="wrap_content"
-        android:ems="10"/>
+        android:textColor="@color/blueColor" />
 
     <TextView
         style="@style/editTextView"
-        android:text="@string/Task2_TextView9_text"/>
+        android:text="@string/Task2_TextView9_text" />
+
     <EditText
         style="@style/editTextView"
+        android:layout_width="wrap_content"
+        android:ems="10"
         android:inputType="numberPassword"
-        android:textColor="@color/blueColor"
-        android:layout_width="wrap_content"
-        android:ems="10"/>
+        android:textColor="@color/blueColor" />
 
     <TextView
         style="@style/editTextView"
-        android:text="@string/Task2_TextView10_text"/>
+        android:text="@string/Task2_TextView10_text" />
+
     <EditText
         style="@style/editTextView"
-        android:inputType="numberDecimal"
-        android:textColor="@color/blueColor"
         android:layout_width="wrap_content"
-        android:ems="10"/>
+        android:ems="10"
+        android:inputType="numberDecimal"
+        android:textColor="@color/blueColor" />
 
     <Button
         android:id="@+id/switchLayout_3"
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_weight="0.05"
         android:text="@string/bottonText2"
-        android:onClick="switchLayout3"
         android:textAllCaps="false"
-        android:layout_weight="0.05"/>
+        android:textColor="@color/redColor"
+        android:textSize="@dimen/sizeSecondButton"
+        android:background="@color/purple_500" />
+        <!--android:onClick="switchLayout3"-->
 
 </LinearLayout>
